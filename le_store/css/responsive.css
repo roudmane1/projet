@@ -1,0 +1,183 @@
+/*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        .titre{
+   position: absolute;
+    top: 20%;
+    left: 33%; 
+}
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+.titre{
+   position: absolute;
+    top: 10%;
+    left: 30%; 
+}
+
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+.titre{
+   position: absolute;
+    top: 15%;
+    left: 20%; 
+}
+
+.section{
+    height: 200px;
+}
+
+.space{
+    margin-top: 5%;
+}
+ .bg{
+    background-image: url("../image/hero.jpg"); 
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%; 
+  -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+    -o-background-size: 100%; 
+}
+  .bg2{
+    background-image: url("../image/flowers.jpg"); 
+     background-repeat: no-repeat;
+    background-attachment: initial;
+    height: 300px;
+    width: 100%; 
+  -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+    -o-background-size: 100%;
+  
+}
+.bg3{
+    background-image: url("../image/flowers2.jpg")  ;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+    -o-background-size: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+
+}
+.bg4{
+    background-image: url("../image/flowers3.jpg")  ;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+    -o-background-size: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+video{    
+display: none;
+}
+.dim {
+    margin-top: 12%;
+}
+.space2{
+    margin-top: 140px;
+}
+.ajustement{
+    margin-top: 10%;
+}
+.text{
+    color: #666666;
+    font-size: 20px;
+     line-height: 28px;
+    color: #666666;
+font-family: FontAwesome;
+    max-width: 950px;
+    letter-spacing: 1px;
+
+}
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+.titre{
+   position: absolute;
+    top: 50%;
+    left: 30%; 
+}
+  .bg2{
+    background-image: url("../image/hero.jpg"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%; 
+  -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+    -o-background-size: 100%;
+  
+}
+.section{
+    height: 40%;
+}
+video{    
+    z-index: -22;
+}
+.with{
+    min-width: 100%;
+    min-height: 100%;
+}
+.titre{
+   position: absolute;
+    top: 50%;
+    left: 30%; 
+}
+.bg{
+    display: none;
+}
+video{    
+display: block;
+}
+.dim {
+    margin-top: 5%;
+}
+.ajustement{
+    margin-top: 5%;
+}
+.bg3{
+    background-image: url("../image/flowers2.jpg")  ;
+    background-attachment: fixed;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+    -o-background-size: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+
+}
+.bg4{
+    background-image: url("../image/flowers3.jpg")  ;
+    background-attachment: fixed;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+    -o-background-size: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.text{
+    
+    font-size: 18px;
+    line-height: 28px;
+    color: #666666;
+
+}
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }

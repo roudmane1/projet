@@ -1,0 +1,172 @@
+*{
+border-color:red;
+border-style:dotted; 
+}
+@font-face {
+font-family: "FontAwesome";
+src: url('../font/FontAwesome.ttf');
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-image:url('../image/pattern.jpg');
+    background-repeat: repeat; 
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+.logo{
+width: 23px;
+height: 23px;
+}
+.navbar{
+	background: none;
+	border: none;
+	background-color: #fff;
+	margin-bottom: 0px;
+}
+.navbar-fixed-top .navbar-nav>li>a
+{
+color: #666666;
+font-family: FontAwesome;
+font-size: 14px;
+letter-spacing: 2px;
+}
+.navbar-fixed-top .navbar-nav>li>a:hover{
+	background-color: #fff;
+color: #009ee3;
+}
+.navbar-fixed-top .navbar-nav>li>a:focus{
+color: #009ee3;
+}
+.container-fluid{
+	width: 100%;
+}
+.bg{
+	background-image: url("../image/hero.jpg")  ;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+    -o-background-size: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+
+}
+h2{
+    font-family : open sans ;
+    color: #666666;
+}
+h1{
+text-align: center;
+color: #009ee3;
+font-family: FontAwesome;
+}
+.glyphicon{
+ color: #009ee3;
+ font-size: 22px;   
+}
+h4{
+
+color: #009ee3;
+font-family: FontAwesome;   
+}
+.space{
+    margin-top: 5%;
+}
+
+
+p{
+
+	font-family: FontAwesome;
+	font-size: 18px;
+	line-height: 28px;
+    text-align: justify;
+    color: #666666;
+}
+.parag{
+	max-width: 800px;
+	margin:auto;
+font-size: 18px;
+    line-height: 28px;
+    color: #666666;
+}
+ .affix {
+      top: 0;
+      width: 100%;
+  }
+  .bg2{
+	background-image: url("../image/hero.jpg"); 
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%; 
+  -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+    -o-background-size: 100%;
+  
+}
+.section{
+	height: 40%;
+}
+video{
+	
+	z-index: -22;
+}
+.with{
+    min-width: 100%;
+    min-height: 100%;
+}
+.titre{
+   position: absolute;
+    top: 50%;
+    left: 30%; 
+}
+.dim img{
+    width: 90%;
+    
+}
+.dim{
+    margin-top: 5%;
+}
+.bg2 .parag{
+padding-top: 10%;
+font-size: 22px;
+    line-height: 28px;
+    color: #666666;
+font-family: FontAwesome;
+    max-width: 950px;
+    letter-spacing: 2px;
+
+
+} 
+.sp{
+    margin-bottom: 2%;
+}
+.contenu{
+    max-width: 92%;
+    margin-left: 5%;
+}
+.fa{
+     color: #009ee3;
+ font-size: 25px;   
+}
+.for{
+    width: 100%;
+    background-color: transparent;
+    border-radius: 4px;
+}
+textarea{
+    height:15%; 
+}
+.for:focus{
+    background-color: #fff;
+}
+.footer{
+    height: 6%;
+    background-color: #009ee3;
+}
+

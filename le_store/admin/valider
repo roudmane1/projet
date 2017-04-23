@@ -1,0 +1,20 @@
+<?php
+$bdd= new PDO('mysql:host=localhost;dbname=le_store;charset=utf8', 'root', '');
+		session_start();
+		if($_SESSION['liv'][0]==1){
+ 		$liv='suivi';
+ 		}else $liv='recemmande';
+ 		//echo $liv;   
+ 		$date=date('Y-m-d'); 
+ 		//echo $date; 
+ 		$id_livr= $_SESSION['liv'][0][0];
+ 		//print_r($_SESSION['liv'][0][0]);
+ 		//echo $id_livr;
+        $sql_liv="insert into commande(Date_commande,id_livraison,id_client) values ('".$date."','".$_SESSION['liv'][0][0]."','".$_SESSION['client'][3]."')";
+        
+       	//echo $sql_liv;
+         $bdd->exec($sql_liv);
+        // echo '<meta http-equiv="Refresh" content="0;url=index.php">';
+         //redirection dans 10 secode ou clique here 
+
+?>

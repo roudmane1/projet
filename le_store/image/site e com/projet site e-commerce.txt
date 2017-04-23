@@ -1,0 +1,1 @@
+pour redimensionner l'image :https://code.flickr.net/2015/06/25/real-time-resizing-of-flickr-images-using-gpus/

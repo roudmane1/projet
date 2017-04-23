@@ -1,0 +1,12 @@
+/**{border:dotted red ;}*/
+
+#p_liv{display:block;position:absolute;height:100px;width:200px;top:30px;}
+#p_liv2{display:block;position: absolute;right:0px;top:30px; }
+.img_liv{display:block;
+position: absolute;left:0px;height:100px;width:100px; }
+.bout_liv{display:block;height:50px;width:100px;
+position: absolute;right:0px;top:20px;background-color: #00FF00;}
+.liv{display: inline-block;position:relative;height:100px;width:200px;}
+.bord{border:solid 2px Silver;}
+/*#th{display:inline-block;position: absolute;right:450px; }
+#tr1{position:relative;}
